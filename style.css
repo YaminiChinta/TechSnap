@@ -133,11 +133,40 @@ body{
 #myBtn:hover {
     background-color: rgb(21, 19, 102); /* Add a dark-grey background on hover */
 }
-
+/* career */
+.carousel{
+    margin-top: 50px;
+    background-color:rgb(49, 47, 47);
+    justify-content: space-around;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+.carousel-inner{
+    height: 450px;
+}
+.carousel-caption{
+    color: #fff;
+    top: 50%;
+}
+.slide p{
+    color:gray;
+    font-size: 20px;
+  }
+.button{
+    background-color:rgb(82, 82, 194);
+    border-radius:5px;
+    width: 100px;
+    height: 30px;
+  }
+.slide h1{
+    padding-top: 100px;
+    font-size: xxx-large;
+  }
 .growthandmoney{
     color: white;
     justify-content: center;
     padding-left: 180px;
+    margin-bottom: 180px;
 }
 #heading{
     padding-left: 14px;
@@ -216,7 +245,36 @@ body{
     #heading{
         margin-right: 0px;
     }
-}  
+    .freetutorials .image{
+        width: 220px;
+        height: 100px;
+    }
+} 
+@media screen and (max-width: 950px){
+    .freetutorials .image{
+        width: 100px;
+        height: 80px;
+    }
+    .slide h1{
+        padding-top: 0px;
+    }
+    .carousel-inner{
+        height: 630px;
+    }
+}
+@media screen and (max-width: 800px){
+    .choose{
+        font-size: 40px;
+    }
+    .career3 .cbd{
+        width: 50px;
+        height: 20px;
+    }
+    .freetutorials .image{
+        width: 100px;
+        height: 80px;
+    }
+} 
 @media screen and (max-width: 575px){
     .home .container-large{
         padding-top: 100px;
@@ -227,16 +285,12 @@ body{
     .getstd{
         margin-left: 15px;
     }
+    .freetutorials .image{
+        width: 280px;
+        height: 100px;
+    }
 }  
-@media screen and (max-width: 800px){
-    .choose{
-        font-size: 40px;
-    }
-    .career3 .cbd{
-        width: 50px;
-        height: 20px;
-    }
-}
+
 
 /* features */
 .card{
@@ -286,14 +340,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.freetutorials .grandparent1{width: 80vw; height: 100vh;}
-.freetutorials .parent1{width: 95vw; height: auto; margin: auto; justify-content: space-around; display: flex; flex-wrap: wrap; transition: all 0.2 linear;}
-.freetutorials .child11{padding-top: 50px; padding-left:30px; padding-right: 30px; padding-bottom: 30px; flex: 1 1 200px; margin: 10px;}
-@media (max-width: 768px){.freetutorials .grandparent1{height: auto;}}
-.freetutorials .child11:hover{transform: scale(1.05); background-color: rgb(58, 55, 55); border-radius: 10px;}
-.freetutorials .child11 h2{font-size: 20px; color: white; text-align: left; }
-.freetutorials .child11 h3{font-size: 18px; color: gray; text-align: left; }
-.freetutorials .child11 a{color: #6600FF; text-decoration: none; font-style: italic; text-align: left;}
+
 
 .freetutorials h2{ font-size: 20px; color: white; text-align: left; border: none; outline: none;}
 .freetutorials h3{ font-size: 18px; color: gray; text-align: left;}
