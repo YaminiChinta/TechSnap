@@ -163,6 +163,10 @@ body{
     margin-bottom: 40px;
     margin-top: 60px;
 }
+.career3 .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .check{
     padding: 10px;
     display:flex;
@@ -184,6 +188,7 @@ body{
     text-align: center;
     font-weight: 400;
     font-size:15px;
+    height: 25px; width: 300px;
 }
 .card-text1{
     color: grey;
@@ -227,6 +232,10 @@ body{
     .choose{
         font-size: 40px;
     }
+    .career3 .cbd{
+        width: 50px;
+        height: 20px;
+    }
 }
 
 /* features */
@@ -267,11 +276,16 @@ body{
 }
 /* FreeTutorial */
 
+.freetutorials .card:hover{transform: scale(1.05); background-color: rgb(58, 55, 55); border-radius: 10px;}
+
 .freetutorials .free2{
     background-color: rgb(43, 43, 43);
     margin-bottom: 150px;
 }
-
+.freetutorials .free2 .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .freetutorials .grandparent1{width: 80vw; height: 100vh;}
 .freetutorials .parent1{width: 95vw; height: auto; margin: auto; justify-content: space-around; display: flex; flex-wrap: wrap; transition: all 0.2 linear;}
 .freetutorials .child11{padding-top: 50px; padding-left:30px; padding-right: 30px; padding-bottom: 30px; flex: 1 1 200px; margin: 10px;}
