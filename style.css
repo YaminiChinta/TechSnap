@@ -36,7 +36,7 @@ body{
     padding-top: 100px;
     margin-left: 30px;
     margin-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
 }
 .start{
     display: flex;
@@ -133,6 +133,48 @@ body{
 #myBtn:hover {
     background-color: rgb(21, 19, 102); /* Add a dark-grey background on hover */
 }
+/* features */
+.features{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+.card{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.card-title{
+    border-radius: 100%;
+    background-color:rgb(49, 47, 47);;
+    width: 75px;
+    height: 75px;
+    color:blanchedalmond;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+    place-items: center;
+}
+.card-titl{
+    color: rgb(190, 190, 190);
+    font-size: 25px;
+    font-weight: 500;
+}
+.card-text{
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+}
+.features .btn{
+    background-color: rgb(49, 47, 47);
+    color: white;
+    font-size: small;
+    width: 100px;
+    height:40px;
+    border-radius: 5%;
+}
 /* career */
 .carousel{
     margin-top: 50px;
@@ -192,47 +234,143 @@ body{
     margin-bottom: 40px;
     margin-top: 60px;
 }
-.career3 .row{
-    display: flex;
-    flex-wrap: wrap;
+
+.career3 .check{
+    padding: 20px;
 }
-.check{
-    padding: 10px;
-    display:flex;
-}
-.card1{
+.career3 .card1{
     background-color: rgb(49, 47, 47);
     border-radius: 5px;
-    height: max-content;
-    width: max-content;
-    padding-left: 10px;
 }
-.card1:hover{  
+.career3 .card1:hover{  
     transform: scale(1.1); 
 }
-.card-title1{
+.career3 .card-title1{
     background-color: rgb(238, 96, 144);
     color: white;
     border-radius: 5px;    
     text-align: center;
     font-weight: 400;
     font-size:15px;
-    height: 25px; width: 300px;
+    width: max-content;
+    padding-left: 8px;
+    padding-right: 8px;
 }
-.card-text1{
+.career3 .card-text1{
     color: grey;
     font-size: 15px;
     font-weight: 500;
 }
-.btn1{
+.career3 .btn1{
     height: 40px;
     width: 100px;
     color: white;
     border-radius: 5px;
     background-color: rgb(38, 155, 201);
 }
-.btn1:hover{
-    background-color: blue;
+.career3 .btn1:hover{
+    background-color: rgb(23, 124, 192);
+}
+
+/* FreeTutorial */
+
+.freetutorials .card:hover{transform: scale(1.05); background-color: rgb(58, 55, 55); border-radius: 10px;}
+
+.freetutorials .free2{
+    background-color: rgb(43, 43, 43);
+    margin-bottom: 150px;
+}
+.freetutorials .free2 .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.freetutorials h2{ 
+    font-size: 20px;  
+    color: white; 
+    text-align: left; 
+    border: none; 
+    outline: none;
+}
+.freetutorials h3{ 
+    font-size: 18px; 
+    color: gray; 
+    text-align: left;
+}
+ 
+.freetutorials .child1{
+    padding-top: 20px; 
+    padding-left:5px; 
+    padding-right: 5px; 
+    padding-bottom: 0px; 
+    flex: 1 1; 
+    margin: 40px; 
+}
+.freetutorials .child2{
+    margin: 42px;
+    width: auto; 
+    flex: 2 1; 
+    padding-top: 60px;
+
+}
+.freetutorials .grandchild{
+    display: flex;
+}
+
+.freetutorials .button1{ 
+    background-color: #42A5F5;
+     color: white; 
+     height: 43px;
+    font-size: 12pt; 
+    width: 120px; 
+    border-radius: 7px; 
+    border: none; 
+    outline: 0; 
+    opacity: 1;
+}
+.freetutorials .button2{
+    background-color: #3a57b7; 
+    color: white; 
+    height: 42px; 
+    font-size: 12pt; 
+    border-radius: 0px 7px 7px 0px; 
+    border: none; 
+    outline: 0; 
+    opacity: 1;
+}
+.freetutorials .button3{
+    background-color: #42A5F5; 
+    color: white; 
+    height: 45px; 
+    font-size: 12pt;
+    width: 120px; 
+    float: left; 
+    margin-top: 50px; 
+    border-radius: 7px; 
+    border: none; 
+    outline: 0; 
+    opacity: 1;
+    margin-bottom: 15px;
+}
+.freetutorials .button1:hover{ 
+    opacity: 0.7;
+}
+.freetutorials .button2:hover{ 
+    opacity: 0.7;
+}
+.freetutorials .button3:hover{ 
+    opacity: 0.7;
+}
+.freetutorials .input{ 
+    height: 42px; 
+    font-size: 13pt; 
+    border-radius: 7px 0px 0px 7px; 
+    border: none; 
+    background-color: #616161; 
+    outline: none;
+}
+.freetutorials ::placeholder{
+    color: white;
 }
 
 @media screen and (max-width: 1300px) {
@@ -252,7 +390,17 @@ body{
     .carousel-inner{
         height: 630px;
     }
+    
 } 
+@media screen and (max-width: 998px){
+    .freetutorials .child2{
+        padding-top: 0px;
+        margin-top: 0;
+    }
+    .freetutorials .button3{
+        margin-top: 10px;
+    }
+}
 @media screen and (max-width: 950px){
     .freetutorials .image{
         width: 100px;
@@ -264,6 +412,7 @@ body{
     .carousel-inner{
         height: 630px;
     }
+    
 }
 @media screen and (max-width: 800px){
     .choose{
@@ -277,6 +426,22 @@ body{
         width: 100px;
         height: 80px;
     }
+    
+} 
+@media screen and (max-width: 765px){
+    .freetutorials .image{
+        width: 300px;
+        height: 150px;
+    }
+    .card{
+        margin-top: 15px;
+    }  
+    .features{
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 40px;
+        padding-bottom: 80px;
+    }
 } 
 @media screen and (max-width: 575px){
     .home .container-large{
@@ -288,76 +453,4 @@ body{
     .getstd{
         margin-left: 15px;
     }
-    .freetutorials .image{
-        width: 280px;
-        height: 100px;
-    }
 }  
-
-
-/* features */
-.card{
-    background-color: black;
-    color: blanchedalmond;
-}
-
-.card-title{
-    border-radius: 100%;
-    background-color:rgb(49, 47, 47);;
-    width: 75px;
-    height: 75px;
-    color:blanchedalmond;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    justify-items: center;
-    place-items: center;
-}
-.card-titl{
-    color: rgb(190, 190, 190);
-    font-size: 25px;
-    font-weight: 500;
-}
-.card-text{
-    color: grey;
-    font-weight: 500;
-    font-size: 20px;
-}
-.features .btn{
-    background-color: rgb(49, 47, 47);
-    color: white;
-    font-size: small;
-    width: 100px;
-    height:40px;
-    border-radius: 5%;
-}
-/* FreeTutorial */
-
-.freetutorials .card:hover{transform: scale(1.05); background-color: rgb(58, 55, 55); border-radius: 10px;}
-
-.freetutorials .free2{
-    background-color: rgb(43, 43, 43);
-    margin-bottom: 150px;
-}
-.freetutorials .free2 .row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.freetutorials h2{ font-size: 20px; color: white; text-align: left; border: none; outline: none;}
-.freetutorials h3{ font-size: 18px; color: gray; text-align: left;}
-.freetutorials .grandparent{width: 80vw; height: 100vh;}
-.freetutorials .parent{padding-top: 40px; width: 90vw; height: auto; margin-top: 30px; margin-left: 80px; justify-content: space-around; display: flex; flex-wrap: wrap;border-radius: 8px; transition: all 0.2 linear; background-color:#242525 }
-.freetutorials .child1{padding-top: 20px; padding-left:5px; padding-right: 5px; padding-bottom: 0px; flex: 1 1; margin: 30px; }
-.freetutorials .child2{padding: 50px; padding-left: 130px; width: auto; flex: 2 1; margin: 10px; margin-left: 20px; margin-top: 20px;}
-.freetutorials .grandchild{display: flex;}
-@media (max-width: 768px){.freetutorials .grandparent{height: auto;width: auto;}}
-.freetutorials .button1{ background-color: #42A5F5; color: white; height: 43px; font-size: 12pt; width: 120px; border-radius: 7px; border: none; outline: 0; opacity: 1;}
-.freetutorials .button2{background-color: #673AB7; color: white; height: 42px; font-size: 12pt; border-radius: 0px 7px 7px 0px; border: none; outline: 0; opacity: 1; display: inline-block; margin: 0}
-.freetutorials .button3{background-color: #42A5F5; color: white; height: 45px; font-size: 12pt;width: 120px; float: left; margin-top: 50px; border-radius: 7px; border: none; outline: 0; opacity: 1;}
-.freetutorials .button1:hover{ opacity: 0.7;}
-.freetutorials .button2:hover{ opacity: 0.7;}
-.freetutorials .button3:hover{ opacity: 0.7;}
-.freetutorials .input{ height: 42px; font-size: 13pt; border-radius: 7px 0px 0px 7px; border: none; background-color: #616161; display: inline-block; margin: 0; outline: none;}
-.freetutorials ::placeholder{color: white;}
