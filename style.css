@@ -485,7 +485,7 @@ body{
 /* Footer */
 footer{
     height: 400px;
-    color: gray;
+    color: rgb(216, 209, 209);
     position: relative;
 }
 footer .container-large{
