@@ -46,7 +46,6 @@ body{
     color: white;
     border-radius: 25px;
 }
-
 .help{
     text-align: center;
     margin: auto 6px;
@@ -63,10 +62,8 @@ body{
     text-align: center;
     font-size: 14px;
     border: #0e2047;
-    background-color: #4f6bdb;
-    
+    background-color: #4f6bdb;  
 }
-
 .choose{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -108,8 +105,6 @@ body{
     padding: auto;
     font-weight: bold;
 }
-
-
 #myBtn {
     display: none; 
     position: fixed; 
@@ -128,8 +123,7 @@ body{
     padding-bottom: 6px;
     border-radius: 50%; 
     font-size: 20px; 
-}
-      
+}     
 #myBtn:hover {
     background-color: rgb(21, 19, 102); /* Add a dark-grey background on hover */
 }
@@ -144,7 +138,6 @@ body{
     background-color: black;
     color: blanchedalmond;
 }
-
 .card-title{
     border-radius: 100%;
     background-color:rgb(49, 47, 47);;
@@ -176,6 +169,9 @@ body{
     border-radius: 5%;
 }
 /* career */
+.career{
+    padding-top: 80px;
+}
 .carousel{
     margin-top: 50px;
     background-color:rgb(49, 47, 47);
@@ -207,13 +203,13 @@ body{
 .growthandmoney{
     color: white;
     justify-content: center;
-    padding-left: 180px;
+    padding-left: 220px;
     margin-bottom: 180px;
 }
 #heading{
     padding-left: 14px;
     margin-right: 230px;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 700;
     font: bold;
 }
@@ -234,7 +230,6 @@ body{
     margin-bottom: 40px;
     margin-top: 60px;
 }
-
 .career3 .check{
     padding: 20px;
 }
@@ -271,12 +266,128 @@ body{
 .career3 .btn1:hover{
     background-color: rgb(23, 124, 192);
 }
+/* Projects*/
+.projects{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+}
+.projects .container{
+    margin: 0px;
+    padding: 0px;
+}
+.projects .part1{
+    padding: 20px;
+    padding-left: 50px;
+}
+.projects .part1 h1{
+    color: white;
+    font: bold;
+    font-size: 50px;
+    padding-bottom: 13px;
+}
+.projects .part1 h5{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 35px;
+    line-height: 30px;
+}
+.projects .part1 h2{
+    color: white;
+    font-size: 23px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+.projects .part1 .row .btn{
+    background-color: rgb(201, 109, 125) ;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.projects .part2 .pcard{
+    background-color: #161616;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.projects .part3 .pcard{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.projects  .pcard .pcard-title{
+    color: rgb(10, 72, 131);
+    font-size: 25px;
+    font-weight: 600;
+    font: bold;
+    margin: 0;
+}
+.projects  .pcard .pcard-body .row{
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    font: bold;
+    padding: 0;
+}
+.projects .part2 .pcard .pcard-body .pcard-subtitle{
+    color: white;
+    margin-top: 40px;
+}
+.projects .part2 .pcard .pcard-body .num{
+    font-size: 70px;
+    margin: 0px;
+    padding-left: 2px;
+    padding-right: 4px;
+    color: white;
+}
+.projects .part3 .pcard .pcard-body .pcard-subtitle{
+    color: black;
+    margin-top: 40px;
+}
+.projects .part3 .pcard .pcard-body .num{
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+.projects .part2 button{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+.projects .part3 button{
+    color: white;
+    background-color: rgb(90, 73, 189);
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+.projects .pcard .pcard-body h4{
+    color: gray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* FreeTutorial */
+.freetutorials{
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
-.freetutorials .card:hover{transform: scale(1.05); background-color: rgb(58, 55, 55); border-radius: 10px;}
-
+.freetutorials .card:hover{
+    transform: scale(1.05); 
+    background-color: rgb(58, 55, 55); 
+    border-radius: 10px;
+}
 .freetutorials .free2{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
     background-color: rgb(43, 43, 43);
     margin-bottom: 150px;
 }
@@ -284,7 +395,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-
 .freetutorials h2{ 
     font-size: 20px;  
     color: white; 
@@ -410,7 +520,7 @@ body{
         padding-top: 0px;
     }
     .carousel-inner{
-        height: 630px;
+        height: 470px;
     }
     
 }
@@ -426,11 +536,22 @@ body{
         width: 100px;
         height: 80px;
     }
+    .freetutorials .free2{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .slide h1{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .slide p{
+        font-size: 15px;
+    }
     
 } 
 @media screen and (max-width: 765px){
     .freetutorials .image{
-        width: 300px;
+        width: 250px;
         height: 150px;
     }
     .card{
@@ -452,5 +573,71 @@ body{
     }
     .getstd{
         margin-left: 15px;
+    }
+    .freetutorials .image{
+        width: 150px;
+        height: 100px;
+    }
+    .freetutorials{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .slide h1{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .slide p{
+        font-size: 15px;
+    }
+    .carousel-inner{
+        height: 595px;
+    }
+    .growthandmoney #heading{
+        padding-left: 8px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .growthandmoney ol{
+        font-size:15px;
+    }
+    .start{
+        width: 180px;
+        height: 35px;
+    }
+    .help{
+        margin: auto 3px;
+        font-size: 8px;
+    }
+    .startbtn{
+        height: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto 6px;
+        font-size: 8px;  
+        padding-bottom: 15px;
+    }
+    .navbar{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .features{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .career{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .freetutorials .child1{
+        margin: 20px;
+    }
+    .freetutorials .child2{
+        margin: 20px;
+    }
+    .projects .part1 .row .btn{
+        margin-top: 15px;
+        margin-left: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }  
