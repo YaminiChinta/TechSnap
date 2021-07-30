@@ -488,6 +488,12 @@ footer{
     color: rgb(216, 209, 209);
     position: relative;
 }
+footer h6{
+    color: whitesmoke;
+}
+footer p{
+    color: whitesmoke;
+}
 footer .container-large{
     margin: 25px;
 }
