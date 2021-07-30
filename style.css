@@ -482,7 +482,28 @@ body{
 .freetutorials ::placeholder{
     color: white;
 }
-
+/* Footer */
+footer{
+    height: 400px;
+    color: gray;
+    position: relative;
+}
+footer .container-large{
+    margin: 25px;
+}
+footer .feed{
+    height: 50px;
+    color: #e6e6e6;
+    background-color: rgb(15, 15, 15);
+    border: black;
+    font-size: small;
+}
+footer .feed::placeholder{
+    color: #e6e6e6;
+}
+footer .feed:focus{
+    background-color: black;
+}
 @media screen and (max-width: 1300px) {
     .home .container-large{
         margin-right: 0px;
