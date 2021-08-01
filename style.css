@@ -172,7 +172,7 @@ body{
 .career{
     padding-top: 80px;
 }
-.carousel{
+.career .carousel{
     margin-top: 50px;
     background-color:rgb(49, 47, 47);
     justify-content: space-around;
@@ -371,7 +371,36 @@ body{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/*Testimonials*/
 
+
+
+.testinomials .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: grey;
+    margin-top: -150px;
+}
+.carousel-indicators .active{
+    background-color: blue;
+}
+.carousel-indicators {
+    margin-left: 20%;
+    
+}
+.row .img{
+    height: 5px;
+    border-radius: 100%;
+    width: 5px;
+    padding-top: 5px;
+}
+.testinomials .row .card{
+    font-family:Satisfy;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 320x;
+}
 /* FreeTutorial */
 .freetutorials{
     padding-top: 80px;
@@ -510,6 +539,7 @@ footer .feed::placeholder{
 footer .feed:focus{
     background-color: black;
 }
+
 @media screen and (max-width: 1300px) {
     .home .container-large{
         margin-right: 0px;
