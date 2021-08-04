@@ -374,33 +374,6 @@ body{
 /*Testimonials*/
 
 
-
-.testinomials .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: grey;
-    margin-top: -150px;
-}
-.carousel-indicators .active{
-    background-color: blue;
-}
-.carousel-indicators {
-    margin-left: 20%;
-    
-}
-.row .img{
-    height: 5px;
-    border-radius: 100%;
-    width: 5px;
-    padding-top: 5px;
-}
-.testinomials .row .card{
-    font-family:Satisfy;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    height: 320x;
-}
 /* FreeTutorial */
 .freetutorials{
     padding-top: 80px;
@@ -512,6 +485,9 @@ body{
     color: white;
 }
 /* Footer */
+.page-footer .row .col-xs-6{
+    width: 50%;
+}
 footer{
     height: 400px;
     color: rgb(216, 209, 209);
@@ -696,5 +672,17 @@ footer .feed:focus{
         margin-left: 10px;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .footerflex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 70px;
+    }
+    .footerflex1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 70px;
     }
 }  
